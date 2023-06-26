@@ -22,11 +22,6 @@ def generate_decreasing_sequence(n):
 
 numbers_n = random.sample(range(10, 51), 5)
 
-# def measure_time(sort_func: object, sequence: object) -> object:
-#     start_time = timeit.timeit()
-#     sort_func(sequence)
-#     end_time = timeit.timeit()
-#     return end_time - start_time
 
 
 def test_sorting_algorithms():
