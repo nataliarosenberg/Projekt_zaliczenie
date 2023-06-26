@@ -20,10 +20,6 @@ def generate_decreasing_sequence(n):
     return list(range(n, 0, -1))
 
 
-numbers_n = random.sample(range(10, 51), 5)
-
-
-
 def test_sorting_algorithms():
     sequence_types = [
         ("Random", generate_random_sequence),
